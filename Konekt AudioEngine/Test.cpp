@@ -1,14 +1,13 @@
-//
 //  Test.cpp
 //  
 //
 //  Created by ike iloegbu on 2/27/26.
 //
-#include "AudioFilter.cpp"
+#include <iostream>
 
 
 int main ()
 {
-    AudioFilter audiofilter;
-    
+    std::cout << "__cplusplus = " << __cplusplus << std::endl;
+    return 0;
 }
